@@ -1,0 +1,86 @@
+@font-face {
+    font-family: source sans pro;
+    src: url(fonts/source-sans-pro/SourceSansPro-Regular.otf);
+}
+@font-face {
+    font-family: spin cycle ot;
+    src: url(fonts/Spin-Cycle-OT/spincycle_ot.otf);
+}
+
+/* css for the hero and header section */
+.hero-section {
+    background-image: url(images/headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    height: auto;
+}
+.header-logo {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.header-logo img {
+    height: 50%;
+}
+.header-items {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 27.76px;  
+    margin-bottom: 280px; 
+}
+.header-items li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 20px;
+}
+.header-items a {
+    text-decoration: none;
+    font-size: 12px;
+    font-family: source sans pro;
+    font-weight: bold;
+    color: white;
+}
+.humberg-icons {
+    display: none;
+}
+
+.hero-items {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.hero-items h3 {
+    font-family: source sans pro;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0;
+}
+.hero-items h6 {
+    font-family: source sans pro;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    margin-top: 0;
+}
+.hero-items .call-button {
+    border: none;
+    border-radius: 25px;
+    background-color: #FF6565;
+    height: 44px;
+    width: 162px;
+    padding: 13px 31px 13px 31px;
+    color: white;
+    font-size: 14px;
+    font-family: source sans pro;
+    font-weight: bold;
+}
+.hero-items p {
+    font-family: source sans pro;
+    font-size: 16px;
+    font-weight: lighter;
+    color: white;
+    line-height: 26px;
+    padding: 20px 350px 0px 350px;
+}

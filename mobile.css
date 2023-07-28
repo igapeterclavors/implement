@@ -1,0 +1,12 @@
+@font-face {
+    font-family: source sans pro;
+    src: url(fonts/source-sans-pro/SourceSansPro-Regular.otf);
+}
+@font-face {
+    font-family: spin cycle ot;
+    src: url(fonts/Spin-Cycle-OT/spincycle_ot.otf);
+}
+
+.humberg-icons {
+    display: block;
+}
