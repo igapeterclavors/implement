@@ -11,6 +11,9 @@
 .hero-section {
     background-image: url(images/headphones_hero_1.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
     height: auto;
 }
 .header-logo {
@@ -85,9 +88,74 @@
     padding: 20px 350px 0px 350px;
 }
 
+/* what we do section */
+.section-what-we-do {
+    text-align: center;
+    padding: 5% 0% 5% 0%;
+}
+.section-what-we-do h1 {
+    text-align: center;
+    font-size: 32px;
+    font-family: source sans pro;
+    color: black;
+}
+.section-what-we-do p {
+    text-align: center;
+    font-size: 16px;
+    font-family: source sans pro;
+    color: black;
+    padding: 4% 25% 5% 25%;
+    line-heigh                                          t: 26px;
+}
+.do-items {
+    display: flex;
+    justify-content: center;
+    padding: 4% 5% 4% 5%; 
+}
+.do-icons {
+    color:#FF6565;
+    font-size: 60px;
+}
+.do-items-icons h3 {
+    font-family: source sans pro;
+}
+.do-items-icons p {
+    font-family: source sans pro;
+}
+
 /* results section */
+.section-results {
+    background-image: url(images/headphones_hero_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    text-align: center;
+    padding: 100px 0px 0px 40px;
+}
+.section-results h1 {
+    text-align: center;
+    font-size: 32px;
+    font-family: source sans pro;
+    color: white;
+}
+.section-results p {
+    text-align: center;
+    font-size: 16px;
+    font-family: source sans pro;
+    color: white;
+    flex-wrap: wrap;
+    padding: 4% 25% 8% 25%;
+    line-height: 26px;
+}
+.results-items {
+    display: flex;
+    justify-content: center;
+}
 .results-icons {
     background-image: url(images/pentagone.png);
+    background-repeat: none;
+    height: 50%;
 }
 
 
@@ -102,24 +170,39 @@
 
 /* footer section */
 .footer-section {
+    background-color: #071629; 
+    padding: 90px 0px 0px 0px;
+}
+.footer-items {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-logo img {
     display: flex;
     justify-content: center;
-    background-color: black;   
+    height: 50%;
 }
-.footer-logo {
-    display: flex;
-    justify-content: center;
-}
-.footer-social-links {
+.footer-social-links li {
     display: inline-flex;
     justify-content: center;
     list-style: none;
+    height: 50%;
+}
+.footer-social-links li a {
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+    font-size: 40px;
 }
 .footer-section p {
-    color: white;
+    color: #3D4958;
+    font-size: 12px;
+    text-align: center;
+    font-family: source sans pro;
+    padding: 40px 0px 40px 0px;
 }
 
-@media (max-width: 480px) {
+@media screen and(max-width: 480px) {
     .footer-section {
         display: flex;
         justify-content: center;
