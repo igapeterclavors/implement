@@ -13,7 +13,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
     height: auto;
 }
 .header-logo {
@@ -43,7 +42,10 @@
     font-weight: bold;
     color: white;
 }
-.humberg-icons {
+.header-items a:hover{
+    color: #FF6565;
+}
+.mobile-icons {
     display: none;
 }
 
@@ -91,37 +93,43 @@
 /* what we do section */
 .section-what-we-do {
     text-align: center;
-    padding: 5% 0% 5% 0%;
+    padding: 5% 0% 2% 0%;
 }
 .section-what-we-do h1 {
     text-align: center;
     font-size: 32px;
     font-family: source sans pro;
-    color: black;
+    color: #071629;
 }
 .section-what-we-do p {
     text-align: center;
     font-size: 16px;
     font-family: source sans pro;
-    color: black;
-    padding: 4% 25% 5% 25%;
-    line-heigh                                          t: 26px;
+    color: #071629;
+    padding: 1% 25% 5% 25%;
+    line-height: 26px;
 }
 .do-items {
     display: flex;
     justify-content: center;
-    padding: 4% 5% 4% 5%; 
+    padding: 2% 8% 4% 8%; 
 }
 .do-icons {
     color:#FF6565;
-    font-size: 60px;
+    font-size: 80px;
 }
 .do-items-icons h3 {
     font-family: source sans pro;
+    color: #071629;
 }
 .do-items-icons p {
     font-family: source sans pro;
+    color: #071629;
+    font-size: 14px;
+    padding: unset;
+    padding: 0 15% 0 15%;
 }
+
 
 /* results section */
 .section-results {
