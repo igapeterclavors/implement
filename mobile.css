@@ -7,6 +7,60 @@
     src: url(fonts/Spin-Cycle-OT/spincycle_ot.otf);
 }
 
-.humberg-icons {
+.header-items {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.header-items li {
+    list-style: none;
     display: block;
+}
+.header-items a {
+    text-decoration: none;
+    font-size: 12px;
+    font-family: source sans pro;
+    font-weight: bold;
+    color: white;
+}
+.header-items p {
+    padding: 0 auto;
+}
+
+/* what we do */
+.do-items {
+    flex-direction: column;
+    justify-content: space-around;
+}
+ /* contact us */
+ 
+/* results section */
+.section-results h1 {
+    padding: 0;
+}
+.section-results p {
+    margin-left: 0;
+    margin-right: 0;
+}
+.results-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.results-icons {
+    margin-bottom: 10%;
+}
+
+.footer-items {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-items p {
+    margin: 0 auto;
+}
+.footer-social-links {
+    margin-top: 10%;
 }

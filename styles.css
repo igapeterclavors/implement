@@ -14,6 +14,7 @@
     background-size: cover;
     background-position: center;
     height: auto;
+    padding-bottom: 4%;
 }
 .header-logo {
     display: flex;
@@ -54,6 +55,7 @@
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 .hero-items h3 {
     font-family: source sans pro;
@@ -87,7 +89,7 @@
     font-weight: lighter;
     color: white;
     line-height: 26px;
-    padding: 20px 350px 0px 350px;
+    padding: 2% 25% 0% 25%;
 }
 
 /* what we do section */
@@ -108,7 +110,7 @@
     color: #071629;
     padding: 1% 25% 5% 25%;
     line-height: 26px;
-}
+} 
 .do-items {
     display: flex;
     justify-content: center;
@@ -139,7 +141,7 @@
     background-position: center;
     height: auto;
     text-align: center;
-    padding: 100px 0px 0px 40px;
+    padding: 5% 4% 4% 4%;
 }
 .section-results h1 {
     text-align: center;
@@ -152,29 +154,90 @@
     font-size: 16px;
     font-family: source sans pro;
     color: white;
-    flex-wrap: wrap;
-    padding: 4% 25% 8% 25%;
+    padding: 4% 25% 2% 25%;
     line-height: 26px;
 }
 .results-items {
     display: flex;
     justify-content: center;
+    padding: 6%;
+    gap: 5%;
 }
 .results-icons {
     background-image: url(images/pentagone.png);
-    background-repeat: none;
-    height: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    text-align: center;
+    /* border: 2px solid black; */
 }
-
+.results-icons h4 {
+    padding: unset;
+    color: white;
+    font-family: source sans pro;
+    font-size: 30px;
+    font-weight: bold;
+    /* border: 2px solid black; */
+    vertical-align: middle;
+}
+.results-icons p {
+    padding: unset;
+    color: white;
+    font-family: source sans pro;
+    font-size: 12px;
+    font-weight: bold;
+}
 
 
 
 
 /* contact us section */
-
-
-
-
+.section-contact {
+    padding: 5% 4% 5% 4%;
+    color: #071629;
+}
+.section-contact h1 {
+    font-family: source sans pro;
+    font-size: 32px;
+    font-weight: bold;
+    padding-bottom: 2%;
+    text-align: center;
+}
+.contact-form {
+    padding: 0% 30% 0% 30%;
+}
+.contact-form label {
+    font-family: source sans pro;
+    font-size: 16px;
+}
+.contact-form input{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #D4D6DA;
+    font-family: source sans pro;
+    font-size: 16px;
+    margin: 0% 0% 4% 0%;
+} 
+.contact-button {
+    text-align: center;
+    padding: 5% 0% 3% 0%;
+}
+.contact-button .call-button {
+    border: none;
+    border-radius: 25px;
+    background-color: #FF6565;
+    height: 44px;
+    width: 162px;
+    padding: 13px 31px 13px 31px;
+    color: white;
+    font-size: 14px;
+    font-family: source sans pro;
+    font-weight: bold;
+}
 
 /* footer section */
 .footer-section {
@@ -208,12 +271,4 @@
     text-align: center;
     font-family: source sans pro;
     padding: 40px 0px 40px 0px;
-}
-
-@media screen and(max-width: 480px) {
-    .footer-section {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
 }
